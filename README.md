@@ -28,3 +28,6 @@ Input: Logger.info("No context shown", shouldLogContext: false)
 Output: [LOGGER_EVENT: INFO]: No context shown
 
 Note: You can use either StaticString or String based on your needs. Using StaticString is preferred when possible, as it is known at compile time, incurs less runtime overhead, and can improve performance in cases where logging is frequent.
+
+Help: If the package isn’t found after adding, ensure it’s linked by going to Your App Target → Build Phases → Link Binary With Libraries and add it if missing. 
+
